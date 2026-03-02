@@ -5,8 +5,7 @@ const Home = () => {
     <div className="flex min-h-[70vh] flex-col items-start justify-center py-12">
       <section className="mb-16 space-y-8">
         <h1 className="text-5xl font-black leading-tight tracking-tight text-gray-900">
-          tecnología con{' '}
-          <span className="text-blue-700">rostro humano</span>
+          tecnología con <span className="text-[#6daace]">rostro humano</span>
         </h1>
         <p className="text-xl leading-relaxed text-gray-600">
           construimos herramientas digitales para desarrolladores y colaboramos
@@ -17,7 +16,7 @@ const Home = () => {
       <section className="mb-16 flex gap-4">
         <Link
           to="/about"
-          className="rounded-lg bg-blue-700 px-6 py-3 font-semibold text-white transition-colors hover:bg-blue-800"
+          className="rounded-lg bg-[#6daace] px-6 py-3 font-semibold text-white transition-colors hover:bg-[#5a94b8]"
         >
           conocer más
         </Link>
@@ -29,7 +28,7 @@ const Home = () => {
         </Link>
       </section>
 
-      <section className="border-l-4 border-blue-700 pl-4">
+      <section className="border-l-4 border-[#6daace] pl-4">
         <p className="text-sm italic text-gray-600">
           un proyecto nacido en méxico que cree en el conocimiento compartido y
           la colaboración honesta.

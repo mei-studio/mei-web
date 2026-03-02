@@ -15,7 +15,7 @@ const Contact = () => {
         </h2>
 
         <div className="space-y-4">
-          <div className="rounded-lg border-2 border-gray-200 p-4 transition-colors hover:border-blue-700">
+          <div className="rounded-lg border-2 border-gray-200 p-4 transition-colors hover:border-[#6daace]">
             <h3 className="mb-2 font-semibold text-gray-900">
               para desarrolladores
             </h3>
@@ -25,7 +25,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="rounded-lg border-2 border-gray-200 p-4 transition-colors hover:border-blue-700">
+          <div className="rounded-lg border-2 border-gray-200 p-4 transition-colors hover:border-[#6daace]">
             <h3 className="mb-2 font-semibold text-gray-900">
               para comunidades y organizaciones
             </h3>
@@ -35,7 +35,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="rounded-lg border-2 border-gray-200 p-4 transition-colors hover:border-blue-700">
+          <div className="rounded-lg border-2 border-gray-200 p-4 transition-colors hover:border-[#6daace]">
             <h3 className="mb-2 font-semibold text-gray-900">
               para conversación abierta
             </h3>
@@ -56,7 +56,7 @@ const Contact = () => {
             </label>
             <input
               type="text"
-              className="w-full rounded-lg border-2 border-gray-200 px-4 py-2 transition-colors focus:border-blue-700 focus:outline-none"
+              className="w-full rounded-lg border-2 border-gray-200 px-4 py-2 transition-colors focus:border-[#6daace] focus:outline-none"
               placeholder="tu nombre"
             />
           </div>
@@ -66,7 +66,7 @@ const Contact = () => {
             </label>
             <input
               type="email"
-              className="w-full rounded-lg border-2 border-gray-200 px-4 py-2 transition-colors focus:border-blue-700 focus:outline-none"
+              className="w-full rounded-lg border-2 border-gray-200 px-4 py-2 transition-colors focus:border-[#6daace] focus:outline-none"
               placeholder="tu@correo.com"
             />
           </div>
@@ -75,14 +75,14 @@ const Contact = () => {
               mensaje
             </label>
             <textarea
-              className="w-full rounded-lg border-2 border-gray-200 px-4 py-2 transition-colors focus:border-blue-700 focus:outline-none"
+              className="w-full rounded-lg border-2 border-gray-200 px-4 py-2 transition-colors focus:border-[#6daace] focus:outline-none"
               rows={6}
               placeholder="cuéntanos sobre tu proyecto o idea..."
             ></textarea>
           </div>
           <button
             type="submit"
-            className="w-full rounded-lg bg-blue-700 px-6 py-3 font-semibold text-white transition-colors hover:bg-blue-800"
+            className="w-full rounded-lg bg-[#6daace] px-6 py-3 font-semibold text-white transition-colors hover:bg-[#5a94b8]"
           >
             enviar mensaje
           </button>

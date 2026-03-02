@@ -8,10 +8,8 @@ function App() {
     <Router>
       <div className="min-h-screen bg-gray-50">
         <nav className="fixed left-0 right-0 top-0 z-50 bg-gray-50">
-          <div className="mx-auto flex w-full max-w-xl items-center justify-between border-b-2 border-blue-700 px-6 pb-4 pt-16">
-            <div className="text-2xl font-black tracking-tight text-blue-700">
-              mei
-            </div>
+          <div className="mx-auto flex w-full max-w-xl items-center justify-between border-b-2 border-[#6daace] px-6 pb-4 pt-16">
+            <img src="/src/assets/mei.svg" alt="mei" className="h-12 w-auto" />
             <div className="flex gap-6">
               <Link
                 to="/"
